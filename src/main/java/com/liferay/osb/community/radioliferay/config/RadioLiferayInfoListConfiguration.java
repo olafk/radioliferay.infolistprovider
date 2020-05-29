@@ -1,9 +1,9 @@
-package de.olafkock.liferay.radioliferay.config;
+package com.liferay.osb.community.radioliferay.config;
 
 import aQute.bnd.annotation.metatype.Meta;
 
 @Meta.OCD(
-	    id = "de.olafkock.liferay.radioliferay.config.RadioLiferayInfoListConfiguration"
+	    id = "com.liferay.osb.community.radioliferay.config.RadioLiferayInfoListConfiguration"
 	    , localization = "content/Language"
 	    , name = "radio-liferay-info-list-provider-configuration-name"
 	    , description = "radio-liferay-info-list-provider-configuration-description"

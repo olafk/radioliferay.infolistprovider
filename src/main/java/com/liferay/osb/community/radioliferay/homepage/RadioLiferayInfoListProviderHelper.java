@@ -1,4 +1,4 @@
-package de.olafkock.liferay.radioliferay.homepage;
+package com.liferay.osb.community.radioliferay.homepage;
 
 import com.liferay.asset.kernel.exception.NoSuchTagException;
 import com.liferay.asset.kernel.model.AssetEntry;
@@ -8,6 +8,7 @@ import com.liferay.asset.kernel.service.AssetTagLocalService;
 import com.liferay.asset.kernel.service.persistence.AssetEntryQuery;
 import com.liferay.blogs.model.BlogsEntry;
 import com.liferay.info.list.provider.InfoListProviderContext;
+import com.liferay.osb.community.radioliferay.config.RadioLiferayInfoListConfiguration;
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.log.Log;
 import com.liferay.portal.kernel.log.LogFactoryUtil;
@@ -16,8 +17,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import de.olafkock.liferay.radioliferay.config.RadioLiferayInfoListConfiguration;
 
 
 /**
