@@ -1,6 +1,18 @@
 package com.liferay.osb.community.radioliferay.config;
 
+import com.liferay.osb.community.radioliferay.homepage.RadioLiferayInfoListProviderHelper;
+
 import aQute.bnd.annotation.metatype.Meta;
+/**
+ * Configuration for the RadioLiferay related InfoListProviders. Default values
+ * taken from current (as of May 2020) community site liferay.dev - might need to
+ * be adapted for anything where the userid and name for the filter doesn't match.
+ * 
+ * If the values don't match, the InfoListProviders will return empty Asset Lists.
+ * 
+ * @author Olaf Kock 
+ * @see RadioLiferayInfoListProviderHelper
+ */
 
 @Meta.OCD(
 	    id = "com.liferay.osb.community.radioliferay.config.RadioLiferayInfoListConfiguration"

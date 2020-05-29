@@ -30,8 +30,6 @@ import org.osgi.service.component.annotations.Reference;
  * @see RadioLiferayInfoListProviderHelper
  */
 
-
-
 @Component(
 		service = InfoListProvider.class,
 		configurationPid = "com.liferay.osb.community.radioliferay.config.RadioLiferayInfoListConfiguration"
